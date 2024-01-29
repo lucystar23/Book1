@@ -1,0 +1,93 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+  }
+  
+  aside {
+    background-color: #020524; /* Dark Blue shade */
+    color: #ecf0f1;
+    padding: 10px;
+    width: 20%; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: space-between;
+  height: 100vh; /* Full height of the viewport */
+  transition: width 0.3s ease; /* Full height of the viewport */
+  }
+  
+  .collapsed aside {
+    width: 50px; /* Collapsed width */
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a:hover {
+    background-color: #000000; /* Darker blue on hover */
+  }
+  
+  nav a span {
+    margin-left: 10px;
+  }
+  
+  .toggle-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+  }
+  
+  footer {
+    margin-top: auto;
+    align-self: flex-start; /* Align footer to the left */
+    margin-bottom: 40px; /* Add some space at the bottom */
+  }
+  
+  #main-content {
+    flex: 1;
+    padding: 20px;
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  /* Dashboard.css */
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .dashboard-card {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the space between cards as needed */
+  }
+  
+  .dashboard-card h3 {
+    margin-bottom: 10px;
+  }
+  

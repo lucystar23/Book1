@@ -1,0 +1,9 @@
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  

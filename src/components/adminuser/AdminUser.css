@@ -1,0 +1,51 @@
+/* Updated class names */
+
+/* Style for the main content area where user cards are displayed */
+#maind-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+        padding-left: 0px;
+    background-image: url('C:\Users\user\OneDrive\Desktop\Book Store App\frontend\src\components\img\book6.jpg');
+    /* height: 100vh; */
+    
+    padding: 20px;
+   
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Add margin to the section for spacing */
+  section {
+    margin-right: auto;
+  }
+  
+  /* Align UserCard to the top */
+  .user-card {
+    margin-top: 0;
+  }
+  
+  /* Style for the container of user cards */
+  .user-cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows user cards to wrap to the next line if needed */
+    gap: 20px; /* Adjust the space between user cards as needed */
+    margin-top: 20px;
+  }
+  
+  /* Style for each individual user card */
+  .user-card {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px); /* 33.333% width with 20px gap between cards */
+    margin-bottom: 20px; /* Adjust the space between rows of cards as needed */
+  }
+  
+  .user-card h3 {
+    margin-bottom: 10px;
+  }
